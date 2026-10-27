@@ -61,7 +61,7 @@ export function Envelope({ onOpen, onOpened }: EnvelopeProps) {
       <div className="pointer-events-none relative min-h-0 w-full flex-1 [-webkit-mask-image:linear-gradient(to_bottom,black_72%,transparent_100%)] [mask-image:linear-gradient(to_bottom,black_72%,transparent_100%)] lg:h-full lg:w-1/2 lg:flex-none lg:[-webkit-mask-image:linear-gradient(to_right,black_70%,transparent_100%)] lg:[mask-image:linear-gradient(to_right,black_70%,transparent_100%)]">
         <img
           src={HERO}
-          alt="Fathimath Famnaz and Mohammed Sakeeb"
+          alt="Fathimath Famnaz and Mohammed Shakeeb"
           width={900}
           height={1350}
           fetchPriority="high"
@@ -101,7 +101,7 @@ export function Envelope({ onOpen, onOpened }: EnvelopeProps) {
             You are invited to the wedding of
           </p>
           <p className="mt-1 font-script text-[2.6rem] leading-tight text-crimson sm:text-5xl lg:text-6xl">
-            Famnaz <span className="text-gold">&amp;</span> Sakeeb
+            Famnaz <span className="text-gold">&amp;</span> Shakeeb
           </p>
           <div className="mt-1 flex items-center justify-center gap-3">
             <span className="h-px w-10 bg-gold/60" />
@@ -138,7 +138,7 @@ export function Envelope({ onOpen, onOpened }: EnvelopeProps) {
             <span className="mt-2 font-serif text-[0.6rem] uppercase tracking-[0.3em] text-ink/60">
               Wedding Invitation
             </span>
-            <span className="mt-2 font-script text-2xl text-crimson">Famnaz &amp; Sakeeb</span>
+            <span className="mt-2 font-script text-2xl text-crimson">Famnaz &amp; Shakeeb</span>
           </motion.span>
 
           {/* Front pocket with gold foil edges */}

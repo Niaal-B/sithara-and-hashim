@@ -90,13 +90,8 @@ export function WeddingCard() {
             Wedding Invitation
           </p>
 
-          <h1 className="mt-4 font-serif text-[1.05rem] font-semibold leading-snug tracking-wide text-ink sm:text-lg">
-            Mr. Muhammed Kunhi Haji
-            <span className="mx-1.5 font-script text-2xl font-normal text-gold">&amp;</span>
-            Ayishabi
-          </h1>
-          <p className="mx-auto mt-2 max-w-[21rem] font-serif text-[0.85rem] italic leading-relaxed text-ink/70">
-            request the honour of your presence at the wedding of
+          <p className="mx-auto mt-4 max-w-[21rem] font-serif text-[0.85rem] italic leading-relaxed text-ink/70">
+            We request the honour of your presence at the wedding of
           </p>
 
           <div className="mt-8">
@@ -109,8 +104,6 @@ export function WeddingCard() {
                   <br />
                   &amp; Late TA Aboobacker Thottil Aloor
                   <br />
-                  D/o Muhammed Kunhi Haji &amp; Ayishabi
-                  <br />
                   MA Manzil, Mooladukkam
                 </>
               } />
@@ -118,7 +111,7 @@ export function WeddingCard() {
 
             <p className="my-5 font-script text-2xl text-gold">with</p>
 
-            <Person role="Groom" name="Mohammed Sakeeb" lineage="S/o Ahmed Ali & Zainaba" />
+            <Person role="Groom" name="Mohammed Shakeeb" lineage="S/o Ahmed Ali & Zainaba" />
           </div>
 
           
@@ -163,7 +156,7 @@ export function WeddingCard() {
           <figure className="mx-auto mt-8 w-full max-w-[17rem] -rotate-1 border border-gold/40 bg-[#fbf7f1] p-2.5 pb-3 shadow-[0_18px_40px_-20px_rgba(59,42,34,0.45)] sm:max-w-[19rem]">
             <img
               src={PHOTO}
-              alt="Fathimath Famnaz and Mohammed Sakeeb"
+              alt="Fathimath Famnaz and Mohammed Shakeeb"
               width={720}
               height={900}
               loading="lazy"
