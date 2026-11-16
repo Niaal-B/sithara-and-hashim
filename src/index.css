@@ -6,12 +6,13 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-
-:root {
-  --ink: #3b2a22;
-  --crimson: #8c1230;
-  --gold: #a9822f;
-}
 body {
   background-color: #efe7df;
+  font-variant-numeric: lining-nums;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Faint eight-point star lattice in gold */
+.pattern-bg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23a9822f' stroke-opacity='0.11' stroke-width='0.8'%3E%3Crect x='16' y='16' width='24' height='24'/%3E%3Crect x='16' y='16' width='24' height='24' transform='rotate(45 28 28)'/%3E%3Ccircle cx='28' cy='28' r='3'/%3E%3C/g%3E%3C/svg%3E");
 }
