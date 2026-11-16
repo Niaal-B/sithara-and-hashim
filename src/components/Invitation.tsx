@@ -120,7 +120,7 @@ function Countdown() {
 
 export function Invitation() {
   return (
-    <div className="relative mx-auto w-full max-w-[560px] px-5 pb-16 pt-12 sm:pt-16">
+    <div className="relative mx-auto w-full max-w-[560px] px-5 pb-28 pt-12 sm:pt-16">
       {/* Hero */}
       <Reveal className="mx-auto max-w-[460px]">
         <ArchFrame>
@@ -247,10 +247,10 @@ export function Invitation() {
           href="https://www.instagram.com/niaal._/"
           target="_blank"
           rel="noreferrer"
-          className="inline-flex items-center gap-1.5 font-serif text-[0.66rem] uppercase tracking-[0.3em] text-ink/40 transition-colors duration-150 hover:text-gold">
+          className="inline-flex items-center gap-1.5 font-serif text-[0.75rem] uppercase tracking-[0.28em] text-ink/60 transition-colors duration-150 hover:text-crimson">
           Crafted by
-          <InstagramIcon className="ml-1 h-3 w-3" aria-hidden="true" />
-          <span className="normal-case tracking-[0.12em]">@niaal._</span>
+          <InstagramIcon className="ml-1 h-3.5 w-3.5 text-crimson/80" aria-hidden="true" />
+          <span className="text-[0.85rem] font-semibold normal-case tracking-[0.1em] text-crimson/85">@niaal._</span>
         </a>
       </footer>
     </div>);
