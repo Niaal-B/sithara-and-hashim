@@ -68,13 +68,14 @@ function ArchFrame({ children }: {children: React.ReactNode;}) {
 
 }
 
-function Person({ name, lineage }: {name: string;lineage: string;}) {
+function Person({ name, relation, parents }: {name: string;relation: string;parents: string;}) {
   return (
     <div>
       <h2 className="inline-block px-3 pb-1 font-script text-[3.1rem] text-crimson leading-[1.3] sm:text-[3.8rem]">
         {name}
       </h2>
-      <p className="font-serif text-[1rem] italic text-ink/70">{lineage}</p>
+      <p className="mt-1 font-serif text-[0.7rem] uppercase tracking-[0.3em] text-gold">{relation}</p>
+      <p className="mt-1 font-serif text-[1.15rem] font-semibold leading-snug text-ink/90">{parents}</p>
     </div>);
 
 }
@@ -136,7 +137,7 @@ export function Invitation() {
           </p>
 
           <div className="mt-7">
-            <Person name="Sithara Parveen" lineage="D/o Suhaib Modieen & Raseena" />
+            <Person name="Sithara Parveen" relation="Daughter of" parents="Suhaib Moideen & Raseena Suhaib" />
             <div className="my-4 flex items-center justify-center gap-3" aria-hidden="true">
               <span className="h-px w-14 bg-gradient-to-r from-transparent to-gold/60" />
               <span className="flex h-11 w-11 items-center justify-center rounded-full border border-gold/50 font-script text-2xl text-gold">
@@ -144,7 +145,7 @@ export function Invitation() {
               </span>
               <span className="h-px w-14 bg-gradient-to-l from-transparent to-gold/60" />
             </div>
-            <Person name="Hashim" lineage="S/o Abdul Latheef & Rajeena" />
+            <Person name="Hashim" relation="Son of" parents="Abdul Latheef & Rajeena" />
           </div>
 
           <Divider className="mt-9" />

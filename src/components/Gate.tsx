@@ -110,15 +110,12 @@ export function Gate({ onOpen, onOpened }: GateProps) {
             <span className="absolute inset-0 rounded-full bg-[radial-gradient(circle_at_35%_30%,#fbecc0_0%,#d4ac52_45%,#8f6a24_100%)] shadow-[0_10px_30px_-8px_rgba(0,0,0,0.6)] transition-transform duration-200 ease-out group-hover:scale-105 group-active:scale-95" />
             <span className="absolute inset-[7px] rounded-full border border-[#7a5719]/40" />
             <span className="absolute inset-[10px] rounded-full border border-[#fbecc0]/50" />
-            <span className="relative font-script text-[1.9rem] leading-none text-[#5a3d0f]">S&amp;H</span>
+            <span className="relative font-serif text-[0.78rem] font-semibold uppercase leading-tight tracking-[0.18em] text-[#5a3d0f]">
+              Tap to
+              <br />
+              Open
+            </span>
           </button>
-
-          <motion.p
-            animate={reduce ? { opacity: 1 } : { opacity: [0.45, 1, 0.45] }}
-            transition={reduce ? { duration: 0 } : { duration: 2.4, repeat: Infinity, ease: 'easeInOut' }}
-            className="mt-6 font-serif text-[0.7rem] uppercase tracking-[0.4em] text-gold">
-            Tap the seal to open
-          </motion.p>
         </div>
       </motion.div>
     </motion.section>);
