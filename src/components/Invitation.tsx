@@ -6,12 +6,12 @@ import { CornerFlourish, Divider, StarMedallion } from './Ornaments';
 const EASE = [0.23, 1, 0.32, 1] as const;
 
 const MAP_URL = 'https://maps.app.goo.gl/4bJcLMSVh3ooAaPZ6?g_st=ic';
-// 10:00 AM IST on 27 Dec 2026
-const NIKAH_AT = new Date('2026-12-27T10:00:00+05:30').getTime();
+// 10:30 AM IST on 27 Dec 2026
+const NIKAH_AT = new Date('2026-12-27T10:30:00+05:30').getTime();
 const CALENDAR_URL =
   'https://calendar.google.com/calendar/render?action=TEMPLATE' +
   `&text=${encodeURIComponent('Nikah of Sithara Parveen & Hashim')}` +
-  '&dates=20261227T043000Z/20261227T073000Z' +
+  '&dates=20261227T050000Z/20261227T080000Z' +
   `&location=${encodeURIComponent('Prestige Palace Auditorium, Edakkara')}` +
   `&details=${encodeURIComponent(`Directions: ${MAP_URL}`)}`;
 
@@ -186,7 +186,7 @@ export function Invitation() {
               </p>
               <p className="px-4 font-serif text-[3.6rem] font-medium leading-none text-crimson">27</p>
               <p className="border-y border-gold/50 py-1.5 font-serif text-[0.7rem] uppercase tracking-[0.22em] text-ink/75">
-                10:00 AM
+                10:30 AM
               </p>
             </div>
             <p className="mt-2 font-serif text-[0.72rem] tracking-[0.42em] text-crimson">2026</p>
